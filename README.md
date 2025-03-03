@@ -1,4 +1,4 @@
-# 📦 WooCommerce Shipping Cost Estimation Plugin
+# 📦 Loenvio.co Woocommerce Integration
 
 ## 🚀 Description
 
