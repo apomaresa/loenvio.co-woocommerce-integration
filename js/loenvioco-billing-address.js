@@ -1,0 +1,76 @@
+  jQuery(function() {
+      var departamentos = [
+      "Amazonas",
+      "Antioquia",
+      "Arauca",
+      "Atlántico",
+      "Bolivar",
+      "Boyacá",
+      "Caldas",
+      "Caquetá",
+      "Casanare",
+      "Cauca ",
+      " Cesar",
+      "Chocó",
+      "Córdoba",
+      "Cundinamarca",
+      "Guainía",
+      "Guaviare",
+      "Huila",
+      "La Guajira",
+      "Magdalena",
+      "Meta",
+      "Nariño",
+      "Norte de Santander",
+      "Putumayo",
+      "Quindío",
+      "Risaralda",
+      "San Andrés y Providencia ",
+      "Santander",
+      "Sucre",
+      "Tolima",
+      "Valle del Cauca",
+      "Vaupés",
+      "Vichada"
+    ];
+    jQuery('#billing_state').autocomplete({
+      source: departamentos
+    });
+      var ciudades = [
+      "Leticia",
+      "Medellín",
+      "Arauca",
+      "Barranquilla",
+      "Cartagena",
+      "Tunja",
+      "Manizales",
+      "Florencia",
+      "Yopal",
+      "Popayán",
+      "Valledupar",
+      "Quibdó",
+      "Montería",
+      "Bogotá",
+      "Inírida",
+      "San José del Guaviare",
+      "Neiva",
+      "Riohacha",
+      "Santa Marta",
+      "Villavicencio",
+      "Pasto",
+      "San José de Cúcuta",
+      "Mocoa",
+      "Armenia",
+      "Pereira",
+      "San Andrés",
+      "Bucaramanga",
+      "Sincelejo",
+      "Ibagué",
+      "Cali",
+      "Mitú",
+      "Puerto Carreño"
+    ];
+    jQuery('#billing_city').autocomplete({
+      source: ciudades
+    });
+});

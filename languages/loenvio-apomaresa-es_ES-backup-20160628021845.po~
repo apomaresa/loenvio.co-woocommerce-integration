@@ -1,0 +1,200 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Loenvio.co Woocommerce integration\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Mon Feb 29 2016 22:54:17 GMT-0500 (Hora est. Pacífico, "
+"Sudamérica)\n"
+"PO-Revision-Date: Mon Jun 27 2016 14:15:03 GMT-0500 (Hora est. Pacífico, "
+"Sudamérica)\n"
+"Last-Translator: apomaresa <abel@nativapps.com>\n"
+"Language-Team: \n"
+"Language: Spanish (Spain)\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Loco-Target-Locale: es_ES"
+
+#. Name of the plugin
+msgid "Loenvio.co Woocommerce integration"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://nativapps.com"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Este plugin permite la intregracion de la API de Loenvio.co con una "
+"instalacion de Woocommerce"
+msgstr ""
+
+#. Author of the plugin
+msgid "Abel Enrique Pomares Agamez"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://twitter.com/apomaresa"
+msgstr ""
+
+#: ../inc/loenvio-adminpage.php:19
+msgid "Loenvio.co Woocommercer Integration"
+msgstr ""
+
+#: ../inc/loenvio-woocommerce.php:201
+msgid "Loenvio schedule date"
+msgstr ""
+
+#: ../loenvio-apomaresa.php:76
+msgid ""
+"<div class=\"error\"><p>You have to install and activate WooCommerce before "
+"you can use <strong>Loenvio.co Woocommerce Integration</strong></p></div>"
+msgstr ""
+"<div class=\"error\"><p>Usted debe instalar y activar el plugin de Woocommerce "
+"antes de poder utilizar <strong>Loenvio.co Woocommerce "
+"Integration</strong></p></div>"
+
+#: ../inc/loenvio-adminpage.php:21
+msgid "Production Settings"
+msgstr "Ajustes para producción"
+
+#: ../inc/loenvio-adminpage.php:24 ../inc/loenvio-adminpage.php:35
+msgid "User*: "
+msgstr "Usuario*: "
+
+#: ../inc/loenvio-adminpage.php:28 ../inc/loenvio-adminpage.php:39
+msgid "Password*: "
+msgstr "Contraseña*: "
+
+#: ../inc/loenvio-adminpage.php:33
+msgid "Test Settings"
+msgstr "Ajustes para pruebas"
+
+#: ../inc/loenvio-adminpage.php:44
+msgid "Plugin information"
+msgstr "Información del plugin"
+
+#: ../inc/loenvio-adminpage.php:46
+msgid "This plugin allows the integration of WooCommerce plugin with Loenvio.co API."
+msgstr ""
+"Este plugin permite la integración de el plugin de Woocommerce con el API de "
+"Loenvio.co"
+
+#: ../inc/loenvio-adminpage.php:48
+msgid "<b>Username:</b> Username given by the company Loenvio.co"
+msgstr "<b>Usuario:</b> Nombre de usuario entregado por la empresa de Loenvio.co"
+
+#: ../inc/loenvio-adminpage.php:50
+msgid "<b>Password:</b> Key or password provided by the company Loenvio.co."
+msgstr ""
+"<b>Clave:</b> Clave o contraseña de acceso entregada por la empresa de "
+"Loenvio.co."
+
+#: ../inc/loenvio-adminpage.php:52
+msgid ""
+"<b>Test Settings:</b> This configuration is used for testing the API Loenvio."
+"co"
+msgstr ""
+"<b>Ajustes para pruebas:</b> Esta configuracion es utilizada para realizar "
+"pruebas en la API de Loenvio.co"
+
+#: ../inc/loenvio-adminpage.php:54
+msgid ""
+"<b>Production Settings:</b> This configuration is used for production "
+"versions ."
+msgstr ""
+"<b>Ajustes para producción:</b> Esta configuración es utilizada para las "
+"versiones en producción."
+
+#: ../inc/loenvio-adminpage.php:56
+msgid "<b>*:</b> All fields marked with this character ( *) are required."
+msgstr "<b>*:</b> Todos los campos marcados con este caracter (*) son obligatorios."
+
+#: ../inc/loenvio-adminpage.php:61
+msgid "<b>Check this box to enable the production mode.</b>"
+msgstr "<b>Marque esta casilla para activar el modo producción.</b>"
+
+#: ../inc/loenvio-adminpage.php:69
+msgid "Shop Shipping Settings"
+msgstr "Ajustes de envio de la tienda"
+
+#: ../inc/loenvio-adminpage.php:72
+msgid "Store Name*: "
+msgstr "Nombre de la tienda*:"
+
+#: ../inc/loenvio-adminpage.php:76
+msgid "Store Phone*: "
+msgstr "Teléfono de la tienda*:"
+
+#: ../inc/loenvio-adminpage.php:80
+msgid "Store Email*: "
+msgstr "Correo de la tienda*:"
+
+#: ../inc/loenvio-adminpage.php:86
+msgid "Store Country*: "
+msgstr "País de la tienda*:"
+
+#: ../inc/loenvio-adminpage.php:90
+msgid "Store State*: "
+msgstr "Departamento de la tienda*:"
+
+#: ../inc/loenvio-adminpage.php:94
+msgid "Store City*: "
+msgstr "Ciudad de la tienda*:"
+
+#: ../inc/loenvio-adminpage.php:98
+msgid "Store ZipCode*: "
+msgstr "Código postal de la tienda*:"
+
+#: ../inc/loenvio-adminpage.php:102
+msgid "Store Address*: "
+msgstr "Dirección de la tienda*:"
+
+#: ../inc/loenvio-adminpage.php:108
+msgid "Save Settings"
+msgstr "Guardar ajustes"
+
+#: ../inc/loenvio-adminpage.php:127
+msgid "Settings"
+msgstr "Ajustes"
+
+#: ../inc/loenvio-woocommerce.php:53
+msgid "Find shipping solution"
+msgstr "Buscar soluciones de envio"
+
+#: ../inc/loenvio-woocommerce.php:54
+msgid ""
+"No shipping solutions are found, please check the shipping information and "
+"try again or contact your administrator"
+msgstr ""
+"No se encontraron soluciones de envio, por favor verifique la información de "
+"envio e intentelo nuevamente o póngase en contacto con el administrador"
+
+#: ../inc/loenvio-woocommerce.php:180
+msgid "Please select a shipping solution."
+msgstr "Por favor seleccione una solución de envio."
+
+#: ../inc/loenvio-woocommerce.php:199
+msgid "Price shipping solution"
+msgstr "Costo de la solución de envio"
+
+#: ../inc/loenvio-woocommerce.php:200
+msgid "Id shipping solution"
+msgstr "ID de la solución de envio"
+
+#: ../inc/loenvio-woocommerce.php:202
+msgid "Guide"
+msgstr "Guía "
+
+#: ../inc/loenvio-woocommerce.php:212
+msgid "Shipping solution"
+msgstr "Solucion de envio"
